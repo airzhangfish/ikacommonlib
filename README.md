@@ -31,7 +31,7 @@ dependencies {<br/>
 
 项目包含两部分，demo和lib。可直接下载demo和lib导入查看内容。<br/>
 开发界面：<br/>
-<img src="https://github.com/airzhangfish/ika_anime_editor_V2/blob/master/doc/samplepic/intro.jpg" /><br/>
+<img src="https://github.com/airzhangfish/ika_anime_editor_V2/blob/master/doc/samplepic/jtintro.jpg" /><br/>
 <img src="https://github.com/airzhangfish/ika_anime_editor_V2/blob/master/doc/samplepic/xx4.jpg" /><br/>
 <img src="https://github.com/airzhangfish/ika_map_editor/raw/master/doc/sample/ikamapeditor_1.jpg" /><br/>
 <img src="https://github.com/airzhangfish/IKA_Map_collision_editor/blob/master/doc/colmap1.jpg" /><br/>
@@ -39,4 +39,4 @@ dependencies {<br/>
 游戏界面：<br/>
 <img src="https://github.com/airzhangfish/ika_anime_editor_V2/blob/master/doc/samplepic/jt_2d.jpg" /><br/>
 <img src="https://github.com/airzhangfish/ika_anime_editor_V2/blob/master/doc/samplepic/jt_3d.jpg" /><br/>
-
+<br/>
