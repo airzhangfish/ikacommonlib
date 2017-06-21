@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+         <com.ikags.ikacommonlib.example.lowviews.BufLowView
+             android:id="@+id/iKABufLowSurfaceView1"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"/>
+
+</RelativeLayout>

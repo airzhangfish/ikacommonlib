@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ikags.ikacommonlib">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity android:name="com.ikags.ikacommonlib.libtest.CommonLibActivity" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ikags.ikacommonlib.example.opengl3dtest.DEMO_openGL3DActivity" android:label="3ddemo" android:screenOrientation="landscape" />
+        <activity android:name="com.ikags.ikacommonlib.example.testlistview.TestListViewActivity" android:label="@string/app_name" />
+        <activity android:name="com.ikags.ikacommonlib.example.TestProviderListActivity" android:label="@string/app_name" />
+        <activity android:name="com.ikags.ikacommonlib.example.anime.IKAAnimeActivity" android:label="@string/app_name"  android:screenOrientation="landscape" />
+        <activity android:name="com.ikags.ikacommonlib.example.lowviews.SViewsTestActivity" android:label="@string/app_name" android:screenOrientation="landscape"  />
+        <activity android:name="com.ikags.ikacommonlib.example.nettest.NettestActivity" android:label="@string/app_name" />
+        <activity android:name="com.ikags.ikacommonlib.example.gif.TestGifActivity" android:label="@string/app_name"  android:screenOrientation="landscape" />
+        <activity android:name="com.ikags.ikacommonlib.example.boxworldtest.Boxworld3DActivity" android:label="@string/app_name"  android:screenOrientation="landscape" />
+
+
+        <receiver android:name="com.ikags.ikacommonlib.example.service.PowerUpReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- <service android:name="com.ikags.example.service.PushNotiService" android:enabled="true" /> -->
+        <!--<provider android:name="CacheProvider" android:authorities="com.ikags.ikacommonlib.urlcache" />-->
+
+
+
+
+
+
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>

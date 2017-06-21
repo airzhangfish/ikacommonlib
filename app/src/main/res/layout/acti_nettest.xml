@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/netbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单次parser解析网络请求" />
+    <Button
+        android:id="@+id/netbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="队列parser解析网络请求" />
+        <Button
+        android:id="@+id/netbutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前线程只读网络请求" />
+    <TextView
+        android:id="@+id/netinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+
+</LinearLayout>

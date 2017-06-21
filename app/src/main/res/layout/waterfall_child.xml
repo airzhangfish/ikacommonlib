@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout1" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:gravity="center"
+    >
+    <ImageView
+    android:id="@+id/waterfall_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="fitXY"
+    android:layout_centerInParent="true"
+    />
+    
+    <ProgressBar android:id="@+id/waterfall_progressBar" 
+     android:visibility="gone"
+     android:layout_centerInParent="true"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/waterfall_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dip"
+        android:layout_centerInParent="true"
+        android:text="1" />
+    <TextView
+        android:id="@+id/waterfall_textView2"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    </RelativeLayout>
